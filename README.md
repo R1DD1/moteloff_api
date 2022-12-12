@@ -63,7 +63,37 @@
  
  
 ## NBTItem
+A class that exercises control over NBT tags on items.
 
+<h4>Getters</h4>
+
+ ```Java
+  NBTItem nbtItem = new NBTItem(new ItemStack(Material.DIAMOND));
+
+  nbtItem.getBoolean("your key");
+  nbtItem.getDouble("your key");
+  nbtItem.getInt("your key");
+  nbtItem.getString("your key");
+  ```
+  
+  <h4>Setters</h4>
+
+  ```Java
+  NBTItem nbtItem = new NBTItem(new ItemStack(Material.DIAMOND));
+
+  nbtItem.setBoolean("your key", false);
+  nbtItem.setDouble("your key", 10.0);
+  nbtItem.setInt("your key", 999);
+  nbtItem.setString("your key", "your value");
+   ```
+   
+  <h4>Contains</h4>
+
+  ```Java
+  NBTItem nbtItem = new NBTItem(new ItemStack(Material.DIAMOND));
+
+  nbtItem.contains("your key");
+   ```
 
 ## NBTEntity
 
