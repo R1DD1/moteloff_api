@@ -1,4 +1,4 @@
-﻿# moteloff_api (current version 0.1)
+﻿# moteloff_api (current version 1.0.1)
  
 ## ItemBuilder
  A class that allows you to specify the displayName, lore, type, amount, nbt, data, and enchantment when creating an item.
