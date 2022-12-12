@@ -1,0 +1,3 @@
+name: Api
+version: '${project.version}'
+main: me.moteloff.api.Api
